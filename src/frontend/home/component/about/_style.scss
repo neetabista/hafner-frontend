@@ -1,0 +1,43 @@
+.about {
+  .about__image {
+    max-width: 100%;
+    img {
+      width: 100%;
+      min-height: 400px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+  }
+  .about__content {
+    p {
+      margin-bottom: 0;
+    }
+    .about__description {
+      color: $text-color;
+      line-height: 1.75;
+      font-size: 15px;
+    }
+    .icons-section {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-between;
+      gap: 1.5rem;
+      .icon {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        img {
+          width: 40px;
+          height: 40px;
+        }
+        .icon-title {
+          font-size: 17px;
+          text-transform: capitalize;
+          margin-top: 0.5rem;
+          text-align: center;
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+}
