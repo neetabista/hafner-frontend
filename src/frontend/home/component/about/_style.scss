@@ -1,41 +1,77 @@
 .about {
-  .about__image {
-    max-width: 100%;
-    img {
-      width: 100%;
-      min-height: 400px;
-      object-fit: cover;
-      border-radius: 5px;
-    }
-  }
-  .about__content {
-    p {
-      margin-bottom: 0;
-    }
-    .about__description {
-      color: $text-color;
-      line-height: 1.75;
-      font-size: 15px;
-    }
-    .icons-section {
-      margin-top: 2rem;
-      display: flex;
-      justify-content: space-between;
-      gap: 1.5rem;
-      .icon {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        img {
-          width: 40px;
-          height: 40px;
+  .about__bg--image {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(
+        to left,
+        rgba(0, 0, 0, 1),
+        rgba(255, 255, 255, 0)
+      ),
+      url("/public/images/bg-5.avif");
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: 0;
+
+    .about__image {
+      max-width: 100%;
+      img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 5px;
+        @media (max-width: 576px) {
+          height: 200px;
+          object-fit: contain;
         }
-        .icon-title {
-          font-size: 17px;
-          text-transform: capitalize;
-          margin-top: 0.5rem;
-          text-align: center;
-          color: $secondary-color;
+      }
+    }
+    .about__content {
+      max-width: 45%;
+      margin-right: 120px;
+      z-index: 1;
+      position: relative;
+      @media (max-width: 768px) {
+        margin-top: 2rem;
+      }
+      p {
+        margin-bottom: 0;
+      }
+      .about__description {
+        // color: $text-color;
+        color: $white-color;
+        line-height: 1.75;
+        font-size: 15px;
+      }
+      .icons-section {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        gap: 1.5rem;
+        @media (max-width: 400px) {
+          flex-wrap: wrap;
+          justify-content: start;
+        }
+        .icon {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          img {
+            width: 40px;
+            height: 40px;
+          }
+          .icon-title {
+            font-size: 17px;
+            text-transform: capitalize;
+            margin-top: 0.5rem;
+            text-align: center;
+            // color: $secondary-color;
+            color: $white-color;
+          }
         }
       }
     }

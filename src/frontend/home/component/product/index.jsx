@@ -10,10 +10,10 @@ const Product = () => {
       <div className="product section">
         <Container>
           <div className="product__wrap">
-            <Title title="Our Featured Product" textAlign="center" />
+            <Title title="Our trending Product" textAlign="center" />
             <Row>
               {products.map((category, index) => (
-                <Col lg={3} key={index} className="mt-3">
+                <Col lg={3} md={4} xs={6} key={index} className="mt-3">
                   <CustomCard
                     data={category}
                     category={category.category}

@@ -1,0 +1,52 @@
+.block {
+  .block__image {
+    max-width: 100%;
+    img {
+      object-fit: cover;
+      height: 400px;
+      border-radius: 5px;
+    }
+  }
+  .block__content {
+    p {
+      font-size: 15px;
+      color: $text-color;
+      line-height: 1.75;
+    }
+  }
+  .accordion {
+    --bs-accordion-bg: unset;
+  }
+  .accordion-item {
+    border: none;
+    &:hover {
+      .accordion-button {
+        color: unset;
+      }
+    }
+
+    .accordion-button {
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .accordion-button:not(.collapsed) {
+      background-color: unset;
+    }
+  }
+
+  .accordion-body {
+    color: $text-color;
+    font-size: 15px;
+    line-height: 1.75;
+  }
+
+  .accordion-button {
+    &:focus {
+      box-shadow: none;
+      border-color: none;
+    }
+    &::after {
+      --bs-accordion-btn-icon-width: 18px;
+    }
+  }
+}

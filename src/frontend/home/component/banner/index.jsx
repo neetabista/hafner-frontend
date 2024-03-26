@@ -11,6 +11,10 @@ import { banners } from "../../../../data/data";
 const Banner = () => {
   return (
     <>
+      <h1 className="d-none">
+        Hafner is a fastest growing kitchen appliances and cookware brand in
+        India.
+      </h1>
       <div className="banner">
         <Swiper
           spaceBetween={30}

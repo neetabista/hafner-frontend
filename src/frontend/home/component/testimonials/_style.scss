@@ -1,5 +1,12 @@
 .testimonials {
+  // .testimonials-bg--image {
+  //   width: 100%;
+  //   height: auto;
+  //   background-size: cover;
+  //   background-position: center;
+  //   background-repeat: no-repeat;
   .testimonials__wrap {
+    padding: 1rem 0;
     .testimonials__left {
       width: 100%;
       height: 100%;
@@ -16,10 +23,13 @@
       }
     }
     .testimonials__right {
-      background-color: $white-color;
-      box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.06);
-      border-radius: 10px;
-      padding: 40px;
+      // background-color: $white-color;
+      // box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.06);
+      // border-radius: 10px;
+      // padding: 40px;
+      @media (max-width: 768px) {
+        margin-top: 2rem;
+      }
 
       .testimonials__right--content {
         width: 100%;
@@ -62,4 +72,5 @@
       }
     }
   }
+  // }
 }

@@ -17,6 +17,10 @@ const Testimonials = () => {
   return (
     <>
       <div className="testimonials section">
+        {/* <div
+          className="testimonials-bg--image section"
+          style={{ backgroundImage: `url("/public/images/light bg-2.jpg")` }}
+        > */}
         <Container>
           <div className="testimonials__wrap">
             <Row>
@@ -75,6 +79,7 @@ const Testimonials = () => {
             </Row>
           </div>
         </Container>
+        {/* </div> */}
       </div>
     </>
   );

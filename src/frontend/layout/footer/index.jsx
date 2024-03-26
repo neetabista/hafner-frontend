@@ -9,26 +9,27 @@ const Footer = () => {
         <Container>
           <div className="footer__inner section">
             <Row>
-              <Col lg="3">
+              <Col lg={3} md={6} sm={12}>
                 <div className="footer__block">
                   <h3 className="footer__title">About Hafner</h3>
                   <ul className="footer__list">
                     <li className="footer__item">
-                      <Link to="#">History</Link>
-                    </li>
-                    <li className="footer__item">
-                      <Link to="#">Our Culture</Link>
+                      <Link to="#">Why hafner</Link>
                     </li>
                     <li className="footer__item">
                       <Link to="#">Mission & Vision</Link>
                     </li>
+
                     <li className="footer__item">
-                      <Link to="#">Why hafner</Link>
+                      <Link to="#">blog</Link>
+                    </li>
+                    <li className="footer__item">
+                      <Link to="#">delear enquiry </Link>
                     </li>
                   </ul>
                 </div>
               </Col>
-              <Col lg="3">
+              <Col lg={3} md={6} sm={12}>
                 <div className="footer__block">
                   <h3 className="footer__title">Our Products</h3>
                   <ul className="footer__list">
@@ -47,26 +48,27 @@ const Footer = () => {
                   </ul>
                 </div>
               </Col>
-              <Col lg="3">
+              <Col lg={3} md={6} sm={12}>
                 <div className="footer__block">
-                  <h3 className="footer__title">usefull links</h3>
+                  <h3 className="footer__title">useful links</h3>
                   <ul className="footer__list">
                     <li className="footer__item">
-                      <Link to="#">Kitchen Hoods & Chimneys</Link>
+                      <Link to="#">offer</Link>
                     </li>
                     <li className="footer__item">
-                      <Link to="#">Cooktops</Link>
+                      <Link to="#">FAQ</Link>
                     </li>
                     <li className="footer__item">
-                      <Link to="#">Kitchen Sink</Link>
+                      <Link to="#">survices and warranty</Link>
                     </li>
+
                     <li className="footer__item">
-                      <Link to="#">Built-in-Hobs</Link>
+                      <Link to="#"> company policy</Link>
                     </li>
                   </ul>
                 </div>
               </Col>
-              <Col lg="3">
+              <Col lg={3} md={6} sm={12}>
                 <div className="footer__block">
                   <h3 className="footer__title">Contact us</h3>
                   <ul className="footer__info footer__list">
@@ -110,12 +112,12 @@ const Footer = () => {
           <Container>
             <div className="bottom-list">
               <div className="footer__copyright">
-                Copyright &copy; 2020 Hafner
+                Copyright &copy; 2020 <span>Hafner</span>
               </div>
               <div className="footer__credit">
-                Designed & Developed By:
+                Powered By:
                 <Link to="https://infinityinfosys.com/" target="_blank">
-                  Infinity Infosys Pvt. Ltd.
+                  <span>Infinity Infosys Pvt. Ltd.</span>
                 </Link>
               </div>
             </div>

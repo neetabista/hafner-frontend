@@ -2,8 +2,9 @@
   background-color: $white-color;
   border-radius: 5px;
   overflow: hidden;
-  padding: 30px;
+  padding: 16px;
   height: 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
   &:hover {
     .custom-card__image {
@@ -29,7 +30,7 @@
     }
   }
   .custom-card__content {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     text-align: center;
     a {
       color: $secondary-color;
@@ -44,9 +45,9 @@
 
     .custom-card__title {
       text-transform: capitalize;
-      font-size: 18px;
+      font-size: 16px;
       text-align: center;
-      font-weight: 500;
+      font-weight: 400;
     }
   }
 }
