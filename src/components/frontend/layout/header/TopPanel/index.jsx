@@ -8,12 +8,20 @@ const TopPanel = () => {
       <div className="header__top">
         <div className="header__socials">
           <Link
-            to="https://www.facebook.com/hafner.india"
+            to="https://www.facebook.com/HafnerAppliances/"
             target="_blank"
             className="icon"
           >
             <div class="d-none">Hafner Facebook Account</div>
             <i className="bx bxl-facebook"></i>
+          </Link>
+          <Link
+            to="https://www.instagram.com/hafnerappliances/"
+            target="_blank"
+            className="icon"
+          >
+            <div class="d-none">Hafner instagram Account</div>
+            <i class="bx bxl-instagram"></i>
           </Link>
           <Link
             to="https://api.whatsapp.com/send/?phone=917307542081&text&type=phone_number&app_absent=0"

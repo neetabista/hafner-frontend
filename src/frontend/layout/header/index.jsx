@@ -47,8 +47,12 @@ const Header = () => {
                     </ul>
                   </MenuItem>
 
-                  <MenuItem title="catalogue" slug="/" />
-                  <MenuItem title="contact" slug="/" />
+                  <MenuItem
+                    title="catalogue"
+                    target="_blank"
+                    slug="https://hafner.co.in/wp-content/uploads/2022/12/Hafner-catalouge-.pdf"
+                  />
+                  <MenuItem title="contact us" slug="/contact-us" />
                 </ul>
               </nav>
               <MobileMenu />

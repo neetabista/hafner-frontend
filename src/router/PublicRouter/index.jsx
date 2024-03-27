@@ -5,6 +5,8 @@ import LargeAppliance from "../../frontend/product details layout/large applianc
 import SmallAppliance from "../../frontend/product details layout/small appliance";
 import CookTops from "../../frontend/product details layout/cooktops";
 import ProductDetails from "../../frontend/product details layout/product details";
+import ContactUs from "../../frontend/contact us";
+import Association from "../../frontend/association";
 
 const PublicRouter = () => {
   return (
@@ -15,6 +17,8 @@ const PublicRouter = () => {
         <Route path="/electric-kettel" element={<SmallAppliance />} />
         <Route path="/cook-top" element={<CookTops />} />
         <Route path="/product-details" element={<ProductDetails />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/association" element={<Association />} />
       </Routes>
     </>
   );

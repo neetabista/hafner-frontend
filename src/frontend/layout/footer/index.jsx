@@ -17,7 +17,7 @@ const Footer = () => {
                       <Link to="#">Why hafner</Link>
                     </li>
                     <li className="footer__item">
-                      <Link to="#">Mission & Vision</Link>
+                      <Link to="/association">Association</Link>
                     </li>
 
                     <li className="footer__item">
@@ -79,7 +79,7 @@ const Footer = () => {
                         width="100%"
                         height="100%"
                       />
-                      <Link to="#">012046068287</Link>
+                      <Link to="#">+977 981-7929593</Link>
                     </li>
                     <li className="footer__info--item footer__item">
                       <img
@@ -88,7 +88,7 @@ const Footer = () => {
                         width="100%"
                         height="100%"
                       />
-                      <Link to="#">Info@hafner.co.in</Link>
+                      <Link to="#">info@hafnerappliances.com</Link>
                     </li>
                     <li className="footer__info--item footer__item">
                       <img
@@ -98,8 +98,7 @@ const Footer = () => {
                         height="100%"
                       />
                       <span className="address">
-                        A 1502, Arihant Tower, Greater Noida , Uttar
-                        Pradesh-201306, India
+                        Head Office : Sukrapath -5, Biratnagar, Nepal
                       </span>
                     </li>
                   </ul>

@@ -1,0 +1,68 @@
+.association {
+  .association-logos {
+    .logo {
+      img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+      }
+    }
+  }
+  .association-form {
+    .left {
+      .form {
+        .form__group {
+          position: relative;
+          margin-bottom: 2rem;
+          border-radius: 5px;
+
+          i {
+            position: absolute;
+            right: 20px;
+            top: 12px;
+            font-size: 20px;
+            color: $primary-color;
+          }
+          input {
+            width: 100%;
+            font-size: 16px;
+            background-color: #f8f6f3;
+            height: 56px;
+            padding: 0 45px 0 25px;
+            border-radius: 5px;
+          }
+          textarea {
+            min-height: 154px;
+            padding-top: 25px;
+            padding-bottom: 17px;
+            background-color: #f8f6f3;
+            width: 100%;
+            padding-left: 25px;
+            padding-right: 4rem;
+            border-radius: 5px;
+          }
+          .css-13cymwt-control {
+            border: none !important;
+            border-radius: 0;
+            background-color: #f8f6f3;
+            width: 100%;
+            height: 56px;
+            &:hover {
+              border: none !important;
+              border-color: transparent;
+            }
+            .css-1hb7zxy-IndicatorsContainer {
+              .css-1u9des2-indicatorSeparator {
+                background-color: unset;
+              }
+              .css-1xc3v61-indicatorContainer {
+                color: $primary-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

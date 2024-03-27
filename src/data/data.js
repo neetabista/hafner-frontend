@@ -385,3 +385,37 @@ export const productCategoryData = [
     ],
   },
 ];
+export const association = [
+  {
+    id: 1,
+    image: "/public/images/brand-1.jpg",
+  },
+  {
+    id: 2,
+    image: "/public/images/brand-2.jpg",
+  },
+  {
+    id: 3,
+    image: "/public/images/brand-3.jpg",
+  },
+  {
+    id: 4,
+    image: "/public/images/brand-2-uai-10.jpg",
+  },
+  {
+    id: 5,
+    image: "/public/images/brand-3.jpg",
+  },
+  {
+    id: 6,
+    image: "/public/images/brand-1.jpg",
+  },
+  {
+    id: 7,
+    image: "/public/images/brand-2.jpg",
+  },
+  {
+    id: 8,
+    image: "/public/images/brand-2-uai-10.jpg",
+  },
+];
